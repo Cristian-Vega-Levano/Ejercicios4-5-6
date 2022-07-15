@@ -20,7 +20,6 @@ export const Clock = () => {
     useEffect(() => {
         let timerID = setInterval(() => {
             thick()
-            console.log("xd")
         }, 1000);
 
         return () => {
